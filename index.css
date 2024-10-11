@@ -1,0 +1,250 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+/*    background-color: #333;*/
+background-image: url('mehak yess//bac.png');
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+/*    object-fit: c;*/
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+/*    border-top: 2px solid black;*/
+/*    margin-top: 100px;*/
+    text-align: center;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+/*    position: fixed;*/
+    bottom: 0;
+/*    width: 100%;*/
+}
+.display-flex{
+    display: flex;
+}
+.column-one,.column-two,.column-three{
+    border: 1px solid black;
+    width: 100%;
+    margin:10px;
+}
+.round-animation{
+    display: flex;  
+    /* overflow: auto;  */
+    /* width: auto; */
+}
+.round-animation .round-animation-1, .round-animation-2{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+ box-shadow: 0 0 10px #ff0, 0 0 10px #ff0, 0 0 10px #ff0, 0 0 10px #ff0;
+
+}
+.round-animation-1 img{
+    width: 200px;
+}
+.round-animation-2{
+   /* justify-content: right; */
+   /* text-align: right; */
+    position: relative;
+    /* right: 0px; */
+    /* overflow: hidden; */
+    /* display: block; */
+    /* float: right; */
+    /* width: auto; */
+    /* height: 100px; */
+    left: 1275px;
+    top: -203px;
+    /* bottom: 100; */
+    box-shadow: 0 0 10px #ff0, 0 0 10px #ff0, 0 0 10px #ff0, 0 0 10px #ff0;
+
+}
+.slide-images{
+    object-fit: contain;
+/*    text-align: conta;*/
+/*    justify-content: ;*/
+/*    position: fixed;*/
+}
+.banner-1{
+    border: 1px solid black;
+    width: 350px;
+    height: 565px;
+    margin-top: -570px;
+    position: absolute;
+    background-color: darkred;
+    border-bottom-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    overflow: hidden;
+}
+.banner-1 img{
+    transform: rotate(90deg);
+    left: 0px;
+/*    right: 110;*/
+    margin-left: -580px;
+    object-fit: cover;
+    width: 1500px;
+}
+
+.banner-2{
+    border: 1px solid black;
+    width: 349.5px;
+    height: 565px;
+    margin-top: -570px;
+    /* left: 1168px; */
+    /* position: absolute; */
+    background-color: darkred;
+    border-bottom-right-radius: 500px;
+    border-bottom-left-radius: 500px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    overflow: hidden;
+    float: right;
+
+}
+.banner-2    img{
+    transform: rotate(90deg);
+    left: 0px;
+/*    right: 110;*/
+    margin-left: -375px;
+    object-fit: cover;
+    width: 1100px;
+}
+.line-flex{
+    display: flex;
+/*    margin-top: 0px;*/
+    padding-top: 50px;
+}
+.line-flex .line-1{
+/*    margin-top: 2px;*/
+   margin-top: 35px;
+    width: 550px;
+    height: 0px;
+    border: 2px solid white;
+    border-top-right-radius: 100%;
+  box-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0;
+
+
+/*    height: 1px;*/
+
+}
+.line-flex .line-2{
+    margin-top: 35px;
+    width: 550px;
+    height: 0px;
+    border: 2px solid white;
+    border-top-left-radius: 100%;
+  box-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0;
+
+/*    border-bottom-left-radius: 100%;*/
+}
+.main-background-1{
+    background-image: url('mehak yess//background-1.jpg');
+}
+.main-background-2{
+    background-image: url('mehak yess//background-3.jpg');
+/*    position: fixed;*/
+/*    height: 200px;*/
+/*    width: 500ox;*/
+    background-position: center;
+    background-attachment: fixed;
+/*    background-repeat: no-repeat;*/
+}
+.line-flex h1{
+/*    background-color: yellow;*/
+/*color: yellow;*/
+ background-color: white;
+  padding: 10px;
+/*  box-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0;*/
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+    margin-top: 5px;
+    text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0;
+}
+.column-one,.column-two,.column-three{
+ box-shadow: 0 0 10px #ff0, 0 0 10px #ff0, 0 0 10px #ff0, 0 0 10px #ff0;
+ height: 500px;
+ text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0, 0 0 40px #ff0;
+
+}
+
+
+
+.line {
+    position: relative;
+    height: 2px;
+    width: 1318px;
+    background-color: #ccc;
+  }
+  
+  .light {
+    position: absolute;
+    height: 2px;
+    width: 200px;
+    background-color: red;
+    animation: light-animation 5s infinite;
+  }
+  
+  .light:nth-child(2) {
+    animation-delay: 1.5s;
+  }
+  
+  .light:nth-child(3) {
+    animation-delay: 3s;
+  }
+  
+  @keyframes light-animation {
+    0% {
+      background-color: red;
+      left: 0%;
+    }
+    33.33% {
+      background-color: yellow;
+      left: 33.33%;
+    }
+    66.66% {
+      background-color: green;
+      left: 66.66%;
+    }
+    100% {
+      background-color: red;
+      left: 100%;
+    }
+  }
+
+
+  .logo-flex{
+    /* display: flex; */
+  }
+  header{
+    /* display: flex; */
+  }
+ 
